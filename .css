@@ -1,0 +1,103 @@
+body {
+  font-family: Quicksand, sans-serif;
+  text-align: center; 
+  background-color: #527A7A;
+}
+
+a:link {
+    color: #C2D6D6;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #1F2E2E;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #FFF;
+    text-decoration: underline;
+}
+
+a:active {
+    color: #000;
+    text-decoration: underline;
+}
+
+h1 {
+	font-family: Quicksand;
+	font-size: 45px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 1000;
+	line-height: 26.3999996185303px;
+}
+h3 {
+	font-family: Quicksand;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 500;
+	line-height: 15.3999996185303px;
+}
+p {
+	font-family: Quicksand;
+	font-size: 20px;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: 400;
+	line-height: 20px;
+}
+
+.button-link {
+    font-family: Quicksand, sans-serif;
+    font-size: 16px;
+    padding: 8px 13px;
+    background: #293D3D;
+    color: #FFF;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+    border: solid 1px #141F1F;
+    text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.4);
+    -webkit-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.4), 0 1px 1px rgba(0, 0, 0, 0.2);
+    -webkit-transition-duration: 0.2s;
+    -moz-transition-duration: 0.2s;
+    transition-duration: 0.2s;
+    -webkit-user-select:none;
+    -moz-user-select:none;
+    -ms-user-select:none;
+    user-select:none;
+}
+.button-link:hover {
+    background: #141F1F;
+    border: solid 1px #0A0F0F;
+    text-decoration: none;
+}
+.button-link:active {
+    -webkit-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    -moz-box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    box-shadow: inset 0 1px 4px rgba(0, 0, 0, 0.6);
+    background: #000000;
+    border: solid 1px #000000;
+}
+
+.button {
+  padding-bottom: 20px;
+}
+
+
+.container {
+    display: inline-block;
+    border: 0 none;
+    border-radius: 4px;
+    overflow: hidden;
+    padding: 8px;
+    outline: none;
+    background-color: #D0D0D0;
+    resize: none;
+}
+
+
